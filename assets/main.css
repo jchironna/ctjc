@@ -97,8 +97,16 @@ html {
   clear: both;
 }
 
+img {
+  width: 100%;
+  padding: 0px;
+  height: 400px;
+}
+
 h2 {
-font-size: 18px;
+font-size: 24px;
+text-align: center;
+padding: 10px;
 }
 
 h3 {
@@ -114,5 +122,29 @@ h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
+}
+
+.softext { 
+  padding: 50px;
+}
+
+
+/* FOOTER */
+
+#footer { 
+  margin-left: 0px;
+  text-align: center;
+  padding: 3em 0 4em 0;
+  font-size: 0.8em;
+}
+
+#footer .copyright {
+  cursor: default;
+  margin: 0;
+}
+
+#footer .copyright li {
+  display: inline-block;
+  line-height: 1em;
 }
