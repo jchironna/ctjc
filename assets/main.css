@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -80,4 +81,38 @@ html {
 
 .title-center {
   text-align: center;
+}
+
+.column {
+  float: left;
+  vertical-align: center;
+  width: 33.33%;
+  padding: 20px;
+
+} 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+font-size: 18px;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+p {
+  font-size: 14px;
 }
