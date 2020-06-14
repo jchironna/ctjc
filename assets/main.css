@@ -70,6 +70,10 @@
   font-size: 16px; 
 }
 
+.navigation a:hover {
+  color: darkblue;
+}
+
 html { 
   font-weight: 100;
   background: white;
@@ -90,13 +94,17 @@ html {
   vertical-align: center;
   width: 33.33%;
   padding: 25px;
-
+  line-height: 1.4;
 } 
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.about {
+  line-height: 1.5;
 }
 
 .row {
@@ -174,6 +182,7 @@ p {
 .softext { 
   padding: 50px;
   margin-right: 280px;
+  line-height: 1.5;
   margin-left: 280px;
   text-align: center;
   font-size: 18px;
@@ -188,6 +197,7 @@ p {
 
 .moreinfo {
   padding: 30px;
+  line-height: 1.6;
   margin-right: 200px;
   margin-left: 200px;
 }
@@ -210,4 +220,8 @@ p {
 #footer .copyright li {
   display: inline-block;
   line-height: 1em;
+}
+
+.link {
+  color: white;
 }
