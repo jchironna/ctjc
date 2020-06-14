@@ -167,6 +167,18 @@ p {
   font-size: 22px;
 }
 
+.bottom {
+  text-align: center;
+  padding: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.moreinfo {
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
 /* FOOTER */
 
 #footer { 
