@@ -89,7 +89,7 @@ html {
   float: left;
   vertical-align: center;
   width: 33.33%;
-  padding: 20px;
+  padding: 25px;
 
 } 
 
@@ -97,6 +97,11 @@ html {
   content: "";
   display: table;
   clear: both;
+}
+
+.row {
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .heading {
@@ -136,7 +141,7 @@ img {
 }
 
 #division {
-  background-color: yellow;
+  background-color: #3B6AA0;
 }
 
 h2 {
@@ -163,21 +168,23 @@ p {
 
 .softext { 
   padding: 50px;
+  margin-right: 280px;
+  margin-left: 280px;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .bottom {
   text-align: center;
   padding: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 280px;
+  margin-left: 280px;
 }
 
 .moreinfo {
-  padding: 20px;
-  margin-right: 100px;
-  margin-left: 100px;
+  padding: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 /* FOOTER */
 
