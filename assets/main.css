@@ -135,6 +135,10 @@ img {
   width: 250px;
 }
 
+#division {
+  background-color: yellow;
+}
+
 h2 {
   font-size: 24px;
   text-align: center;
