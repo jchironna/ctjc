@@ -201,6 +201,11 @@ p {
   margin-right: 200px;
   margin-left: 200px;
 }
+
+#map {
+  height: 200px;
+  width: 100%;
+}
 /* FOOTER */
 
 #footer { 
