@@ -42,6 +42,7 @@
 
 .navigation {
   float: right;
+  font-family: verdana;
 }
 
 .navigation ul {
@@ -181,6 +182,7 @@ p {
 
 .softext { 
   padding: 50px;
+  font-family: roboto;
   margin-right: 280px;
   line-height: 1.5;
   margin-left: 280px;
